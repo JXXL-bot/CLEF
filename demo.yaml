@@ -1,0 +1,11 @@
+data:
+  train: path/to/train.parquet
+  val: path/to/val.parquet
+  test: path/to/test.parquet
+
+model:
+  graph_width: 512
+  graph_layers: 16
+
+training:
+  epochs: 100
